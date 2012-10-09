@@ -1,6 +1,6 @@
 require "rails/generators/named_base"
 
-module LiveScript
+module Ls
   module Generators
     class AssetsGenerator < ::Rails::Generators::NamedBase
       source_root File.expand_path("../templates", __FILE__)
