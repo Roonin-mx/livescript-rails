@@ -15,3 +15,6 @@ If you are precompiling your assets (with rake assets:precompile) before run you
       gem 'livescript-rails'
     end
 
+### Prelude
+LiveScript-Rails also includes prelude-ls (0.6).
+Just use `//= require prelude` in your `application.js`.
